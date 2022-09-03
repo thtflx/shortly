@@ -363,7 +363,7 @@ img {
 
 .cta {
     background-image: url('../img/cta-bg.png');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
 }
 
@@ -410,8 +410,8 @@ img {
 
 .site-footer {
     background-color: var(--footer-color);
-    /* padding: 72px 163px; */
     padding-top: 72px;
+    padding-bottom: 20px;
 }
 
 .site-footer__content {
