@@ -10,6 +10,8 @@
     --features-bg: #EFF1F7;
     --dark-purple: #3A3054;
     --purple: #34313D;
+    --footer-color: #232127;
+    --footer-link-color: #bfbfbf;
 }
 
 
@@ -335,4 +337,110 @@ img {
 .fully-position {
     position: relative;
     top: 80px;
+}
+
+
+/* CTA */
+
+.cta__content {
+    align-items: center;
+    text-align: center;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    background-image: url('../img/cta-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: var(--bg-color);
+}
+
+.cta__link {
+    margin-top: 0;
+    text-align: center;
+    padding: 14px 40px;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: var(--bg-color);
+    background-color: var(--link-color);
+}
+
+
+/* SITE__FOOTER */
+
+.site-footer__content {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    background-color: var(--footer-color);
+}
+
+.site-footer__logo {
+    width: 120px;
+    height: 33px;
+    margin-right: 150px;
+}
+
+.site-footer__info__list {
+    position: relative;
+    top: -30px;
+    margin-right: 90px;
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.site-footer__info__item:not(:last-child) {
+    margin-right: 78px;
+}
+
+.site-footer__info__head {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: var(--link-text-color);
+}
+
+.site-footer__info__link {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.234375px;
+    color: var(--footer-link-color);
+}
+
+.site-footer__socials__list {
+    position: relative;
+    top: -10px;
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.site-footer__socials__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.site-footer__social {}
+
+.site-footer__social__img {
+    /* width: 24px;
+    height: 24px; */
+    /* object-fit: cover; */
 }
